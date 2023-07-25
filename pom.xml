@@ -5,9 +5,9 @@
 
     <modelVersion>4.0.0</modelVersion>
     
-    <groupId>com.example</groupId>
-    <artifactId>your-project-name</artifactId>
-    <version>1.0.0</version>
+    <groupId>in.javahome</groupId>
+    <artifactId>myweb</artifactId>
+    <version>8.2.0</version>
     
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
