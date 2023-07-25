@@ -22,32 +22,10 @@
        			<artifactId>commons-collections4</artifactId>
         		<version>4.2</version>
     		</dependency>
-	
-	<distributionManagement>
-		 <snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://54.178.74.89:8081/repository/sample-snapshots/</url>
-		 </snapshotRepository>
-		
-		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://54.178.74.89:8081/repository/sample-releases/</url>
-		</repository>
-  	</distributionManagement>
-
 	<plugin>
   		<groupId>org.apache.maven.plugins</groupId>
   		<artifactId>maven-war-plugin</artifactId>
   		<version>2.2</version>
 	</plugin>
-	
-	<pluginRepositories>
-	    <pluginRepository>    
-		<id>maven1</id>
-		<name>Maven.org</name>
-		<url>http://repo1.maven.org/maven2</url>
-	    </pluginRepository>
-	</pluginRepositories>
-
 	
 </project>
